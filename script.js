@@ -1,6 +1,6 @@
       const kTemp = document.querySelector('#tempk');
      function tempkel(){
-        const tempk = Math.floor((0-32) * 5/9 + 273.15)
+        const tempk = Math.floor((15-32) * 5/9 + 273.15)
         // kTemp.innerHTML = `${tempk}`;
         console.log(`Temperature in Kelvin is ${tempk}`);
     }
